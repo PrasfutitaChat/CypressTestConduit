@@ -1,7 +1,8 @@
-class homePage{
+class landingPage{
 
     elements ={
-        signInLink: ()=> cy.contains('Sign in')
+        signInLink: ()=> cy.contains('Sign in'),
+        signUpLink: ()=> cy.contains('Sign up')
         
 
     }
@@ -12,7 +13,14 @@ class homePage{
 
     }
 
+    navigateToSignUpPage()
+    {
+        this.elements.signUpLink().scrollIntoView().should('be.visible').click();
+
+    }
+
+
 
 
 }
-module.exports= new homePage();
+module.exports= new landingPage();

@@ -40,5 +40,10 @@ describe(`Login feature tests for ${afixture.name}`, () =>
         signInPage.unsuccessfulLogin(this.UserData.validEmailID,this.UserData.invalidPassword,this.UserData.errorMessage);
 
 	})
+
+	it("Verify user is not able to login with both invalid email & password and getting proper error message",function(){
+        signInPage.unsuccessfulLogin(this.UserData.invalidEmailID,this.UserData.invalidPassword,this.UserData.errorMessage);
+
+	})
 })
 })

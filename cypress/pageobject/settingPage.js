@@ -29,6 +29,10 @@ class settingPage{
     {
         this.elements.newPasswordInput().scrollIntoView().should('be.visible').type(newPassword);
     }
+    updateUserName(newUserName)
+    {
+        this.elements.userNameInput().clear().type(newUserName);
+    }
     updateSetting()
     {
         this.elements.updateSettingButton().click();

@@ -11,15 +11,15 @@ class signInPage{
 
     successfulLogin(email,password)
     {
-        this.elements.emailInput().scrollIntoView().should('be.visible').type(email);
-        this.elements.passwordInput().scrollIntoView().should('be.visible').type(password);
+        this.elements.emailInput().scrollIntoView().should('be.visible').clear().type(email);
+        this.elements.passwordInput().scrollIntoView().should('be.visible').clear().type(password);
         this.elements.signInButton().scrollIntoView().should('be.visible').click();
 
     }
     unsuccessfulLogin(email,password,errorMessage)
     {
-        this.elements.emailInput().scrollIntoView().should('be.visible').type(email);
-        this.elements.passwordInput().scrollIntoView().should('be.visible').type(password);
+        this.elements.emailInput().scrollIntoView().should('be.visible').clear().type(email);
+        this.elements.passwordInput().scrollIntoView().should('be.visible').clear().type(password);
         this.elements.signInButton().scrollIntoView().should('be.visible').click();
         this.elements.errorMessage().scrollIntoView().should('be.visible').should('contain.text',errorMessage);
 

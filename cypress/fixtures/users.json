@@ -1,9 +1,10 @@
 {
-  "validEmailID": "prasfutita.chak@gmail.com",
-  "password": "Password-754om75m7a0e",
+  "validEmailID": "prasfutita.chakraborty@gmail.com",
+  "password": "Password",
   "invalidEmailID": "wrong@gmail.com",
   "invalidPassword": "wrong",
   "errorMessage": "email or password is invalid",
-  "userName": "prasfutita",
-  "bioDetails": "I am Prasfutita Chakraborty.I am an automation tester."
+  "bioDetails": "I am cypress user.I am an automation tester.",
+  "newUserEmail": "cypress@gmail.com05j0nh1j81h07",
+  "userName": "cypressUser8mo5allldal"
 }
