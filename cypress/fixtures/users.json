@@ -1,0 +1,9 @@
+{
+  "validEmailID": "prasfutita.chak@gmail.com",
+  "password": "Password-754om75m7a0e",
+  "invalidEmailID": "wrong@gmail.com",
+  "invalidPassword": "wrong",
+  "errorMessage": "email or password is invalid",
+  "userName": "prasfutita",
+  "bioDetails": "I am Prasfutita Chakraborty.I am an automation tester."
+}
